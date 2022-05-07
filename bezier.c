@@ -2,6 +2,7 @@
 #include <stdint.h>
 #include <stdlib.h>
 #define u_char unsigned char
+#define uint unsigned int
 
 float cosine(float x) {
 return (40320 - x*x*20160 + x*x*x*x*1680 - x*x*x*x*x*x*56 + x*x*x*x*x*x*x*x)/40320;
